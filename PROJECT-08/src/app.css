@@ -1,0 +1,91 @@
+.app {
+  display: flex;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 7px;
+  border-bottom: 1px solid #eee;
+  gap: 12px;
+}
+
+.friend img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.friend div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.friend div p:first-child {
+  font-weight: 600;
+  margin: 0;
+  text-transform: "capitalize";
+}
+
+.friend div p:last-child {
+  margin: 2px 0 0 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.add-friend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid orange;
+}
+.input-field {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.input-field p {
+  margin: 0;
+  width: 180px;
+  word-wrap: break-word;
+  line-height: 1.3;
+}
+
+.input-field .input-type {
+  /* width: 180px;
+  height: 20px; */
+  flex: 1;
+  padding: 6px 8px;
+}
+
+.friend-list {
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.split-bill {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 30px;
+  border: 1px solid red;
+  background-color: #efefef;
+  width: 400px;
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+}
+
+.button {
+  grid-column: 2;
+  width: 200px;
+  justify-self: end;
+  padding: 8px 14px;
+}
