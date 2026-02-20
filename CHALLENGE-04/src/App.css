@@ -1,0 +1,32 @@
+body {
+  margin: 10px;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal */
+  /* align-items: center; vertical */
+}
+
+.center-box {
+  width: 400px;
+  height: 100px;
+  background: grey;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.step {
+  display: flex;
+}
+.count {
+  display: flex;
+}
+.plus {
+  background-color: green;
+  color: white;
+}
+.minus {
+  background-color: red;
+  color: white;
+}
